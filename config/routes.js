@@ -38,7 +38,9 @@ module.exports.routes = {
 
   '/api/metadata': 'MetadataController.Query',
   '/api/plex/RefreshSection' : 'PlexController.RefreshSection',
-  "/api/plex/sections" : 'PlexController.Sections'
+  '/api/plex/sections' : 'PlexController.Sections',
+  '/api/log' : 'LogController.GetLog',
+  '/api/downloads' : 'DownloadController.GetDownloads'
 
   /***************************************************************************
   *                                                                          *
